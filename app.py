@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 import string
 import pickle
-st.set_option('deprecation.showfileUploaderEncoding',False)
+#st.set_option('deprecation.showfileUploaderEncoding',False)
 model = pickle.load(open('model.pkl','rb'))
 st.set_page_config(page_title='Retail', layout='wide', page_icon="🛒")
 from streamlit_option_menu import option_menu
